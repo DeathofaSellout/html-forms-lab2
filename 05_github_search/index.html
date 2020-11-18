@@ -30,7 +30,7 @@
 
             For example, here are search results for
             "form select" in "HTML" files:
-
+            https://github.com/search?q=form+select&language=HTML
             https://github.com/search?q=form%20select&l=HTML
           </pre>
         </div>
@@ -38,8 +38,11 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
 
-          <!-- CODE IN HERE -->
-
+          <form method="GET" action="https://github.com/search">
+            <input type="text" name="q" ></input>
+            <input type="text" name="l" ></input>
+            <input type="submit"></input>
+          </form>
         </div>
       </div>
     </div>
